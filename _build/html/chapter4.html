@@ -1,0 +1,318 @@
+
+
+<!DOCTYPE html>
+<!--[if IE 8]><html class="no-js lt-ie9" lang="en" > <![endif]-->
+<!--[if gt IE 8]><!--> <html class="no-js" lang="en" > <!--<![endif]-->
+<head>
+  <meta charset="utf-8">
+  
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  
+  <title>4. Install on my Computer &mdash; FP-ConfigGuide 1.5 documentation</title>
+  
+
+  
+  
+
+  
+
+  
+  
+    
+
+  
+
+  
+  
+   <!-- <link rel="stylesheet" href="_static/css/theme.css" type="text/css" />-->
+  
+  <link rel="stylesheet" href="_static/css/theme.css" type="text/css" />
+
+  
+
+  
+    <link rel="top" title="FP-ConfigGuide 1.5 documentation" href="index.html"/>
+        <link rel="next" title="5. Install on my Computer" href="chapter5.html"/>
+        <link rel="prev" title="3. Install on my Computer" href="chapter3.html"/> 
+
+
+
+  
+  <script src="_static/js/modernizr.min.js"></script>
+
+
+  <script>
+    (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+              (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+            m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+    })(window,document,'script','//www.google-analytics.com/analytics.js','ga');
+
+    ga('create', 'UA-113448-8', 'auto');
+    ga('send', 'pageview');
+
+  </script>
+
+</head>
+
+<body class="wy-body-for-nav" role="document">
+
+  <div class="wy-grid-for-nav">
+
+    
+    <nav data-toggle="wy-nav-shift" class="wy-nav-side">
+      <div class="wy-side-scroll">
+        <div class="wy-side-nav-search">
+          
+
+          
+            <a href="index.html" class="icon icon-home"> FP-ConfigGuide
+          
+
+          
+          </a>
+
+          
+            
+            
+              <div class="version">
+                1.5
+              </div>
+            
+          
+
+          
+<div role="search">
+  <form id="rtd-search-form" class="wy-form" action="search.html" method="get">
+    <input type="text" name="q" placeholder="Search docs" />
+    <input type="hidden" name="check_keywords" value="yes" />
+    <input type="hidden" name="area" value="default" />
+  </form>
+</div>
+
+          
+        </div>
+
+        <div class="wy-menu wy-menu-vertical" data-spy="affix" role="navigation" aria-label="main navigation">
+          
+            
+            
+                <ul class="current">
+<li class="toctree-l1"><a class="reference internal" href="chapter1.html">1. Install on my Computer</a></li>
+<li class="toctree-l1"><a class="reference internal" href="chapter2.html">2. Install on my Computer</a></li>
+<li class="toctree-l1"><a class="reference internal" href="chapter3.html">3. Install on my Computer</a></li>
+<li class="toctree-l1 current"><a class="current reference internal" href="#">4. Install on my Computer</a><ul>
+<li class="toctree-l2"><a class="reference internal" href="#install-java">4.1. Install Java</a></li>
+<li class="toctree-l2"><a class="reference internal" href="#download-enonic-xp">4.2. Download Enonic XP</a></li>
+<li class="toctree-l2"><a class="reference internal" href="#start-the-server">4.3. Start the server</a></li>
+<li class="toctree-l2"><a class="reference internal" href="#log-in">4.4. Log In</a></li>
+<li class="toctree-l2"><a class="reference internal" href="#install-superhero-blog">4.5. Install Superhero Blog</a></li>
+<li class="toctree-l2"><a class="reference internal" href="#next-steps">4.6. Next Steps</a></li>
+</ul>
+</li>
+<li class="toctree-l1"><a class="reference internal" href="chapter5.html">5. Install on my Computer</a></li>
+<li class="toctree-l1"><a class="reference internal" href="appendix.html">6. Install on my Computer</a></li>
+</ul>
+
+            
+          
+        </div>
+      </div>
+    </nav>
+
+    <section data-toggle="wy-nav-shift" class="wy-nav-content-wrap">
+
+      
+      <nav class="wy-nav-top" role="navigation" aria-label="top navigation">
+        <i data-toggle="wy-nav-top" class="fa fa-bars"></i>
+        <a href="index.html">FP-ConfigGuide</a>
+      </nav>
+
+
+      
+      <div class="wy-nav-content">
+        <div class="rst-content">
+          
+
+ 
+
+
+
+<div role="navigation" aria-label="breadcrumbs navigation">
+  <ul class="wy-breadcrumbs">
+    <li><a href="index.html">Docs</a> &raquo;</li>
+      
+    <li>4. Install on my Computer</li>
+    <li class="wy-breadcrumbs-aside">
+      
+        
+          <a href="_sources/chapter4.txt" rel="nofollow"> View page source</a>
+        
+      
+    </li>
+  </ul>
+  <hr/>
+</div>
+          <div role="main" class="document" itemscope="itemscope" itemtype="http://schema.org/Article">
+           <div itemprop="articleBody">
+            
+  <div class="section" id="install-on-my-computer">
+<span id="local-installation"></span><h1>4. Install on my Computer<a class="headerlink" href="#install-on-my-computer" title="Permalink to this headline">¶</a></h1>
+<p>This section describes how to install Enonic XP on your own computer. If you have any problems,
+please look at our <span class="xref std std-ref">troubleshooting</span> section.</p>
+<div class="admonition note">
+<p class="first admonition-title">Note</p>
+<p><strong>General Requirements</strong></p>
+<ul class="last simple">
+<li>Any OS supporting Java (Mac, Linux, Windows etc)</li>
+<li>Java JDK 1.8 (update 40 or newer)</li>
+<li>At least 1 GB of available memory</li>
+<li>HTTP port 8080 should be available (this can be changed if needed, see <span class="xref std std-ref">configuration</span>)</li>
+</ul>
+</div>
+<div class="section" id="install-java">
+<h2>4.1. Install Java<a class="headerlink" href="#install-java" title="Permalink to this headline">¶</a></h2>
+<div class="admonition warning">
+<p class="first admonition-title">Warning</p>
+<p class="last">To run Enonic XP, you need Java Development Kit (JDK) 1.8.40 JDK or newer.</p>
+</div>
+<p><strong>Check JDK Version</strong></p>
+<p>If you&#8217;re not sure what JDK version you have (or even if you have one), run the following in your terminal/shell:</p>
+<div class="highlight-default"><div class="highlight"><pre><span></span><span class="n">javac</span> <span class="o">-</span><span class="n">version</span>
+</pre></div>
+</div>
+<p>This should produce a response such as: &#8220;javac 1.8.0_60&#8221;</p>
+<p>Having problems with your existing Java installation? Check out our <span class="xref std std-ref">troubleshooting_java</span> documentation.</p>
+<p><strong>Optionally Install Java</strong></p>
+<p>If it turns out you&#8217;re on the wrong java version, follow these steps</p>
+<ul class="simple">
+<li>Download it from <a class="reference external" href="http://www.oracle.com/technetwork/java/javase/downloads/index.html">http://www.oracle.com/technetwork/java/javase/downloads/index.html</a></li>
+</ul>
+<img alt="images/java-download.png" src="images/java-download.png" />
+<ul class="simple">
+<li>Follow the instructions for your respective operating system</li>
+</ul>
+</div>
+<div class="section" id="download-enonic-xp">
+<h2>4.2. Download Enonic XP<a class="headerlink" href="#download-enonic-xp" title="Permalink to this headline">¶</a></h2>
+<p>Enonic XP is available in a simple universal distribution file - running on all plaforms (Windows, Linux, OSX etc)</p>
+<ul class="simple">
+<li><a class="reference external" href="https://enonic.com/try-now#download-now">Download Enonic XP distribution</a></li>
+<li>Unzip the file to a suitable location</li>
+</ul>
+<div class="admonition hint">
+<p class="first admonition-title">Hint</p>
+<p><strong>Commandline Ninja version</strong></p>
+<div class="last highlight-default"><div class="highlight"><pre><span></span><span class="n">curl</span> <span class="o">-</span><span class="n">O</span> <span class="n">http</span><span class="p">:</span><span class="o">//</span><span class="n">repo</span><span class="o">.</span><span class="n">enonic</span><span class="o">.</span><span class="n">com</span><span class="o">/</span><span class="n">public</span><span class="o">/</span><span class="n">com</span><span class="o">/</span><span class="n">enonic</span><span class="o">/</span><span class="n">xp</span><span class="o">/</span><span class="n">distro</span><span class="o">/</span><span class="mf">6.1</span><span class="o">.</span><span class="mi">0</span><span class="o">/</span><span class="n">distro</span><span class="o">-</span><span class="mf">6.1</span><span class="o">.</span><span class="mf">0.</span><span class="n">zip</span>
+<span class="n">unzip</span> <span class="n">distro</span><span class="o">-</span><span class="mf">6.1</span><span class="o">.</span><span class="mf">0.</span><span class="n">zip</span>
+<span class="n">cd</span> <span class="n">enonic</span><span class="o">-</span><span class="n">xp</span><span class="o">-</span><span class="mf">6.1</span><span class="o">.</span><span class="mi">0</span>
+</pre></div>
+</div>
+</div>
+<p>Next - let&#8217;s get the server started</p>
+</div>
+<div class="section" id="start-the-server">
+<h2>4.3. Start the server<a class="headerlink" href="#start-the-server" title="Permalink to this headline">¶</a></h2>
+<p>Now that the software has been downloaded, you&#8217;re ready to start the
+server - start the respective file from command line.</p>
+<p>Linux and OS X:</p>
+<div class="highlight-default"><div class="highlight"><pre><span></span><span class="p">[</span><span class="n">XP</span> <span class="n">Installation</span> <span class="n">Folder</span><span class="p">]</span><span class="o">/</span><span class="nb">bin</span><span class="o">/</span><span class="n">server</span><span class="o">.</span><span class="n">sh</span>
+</pre></div>
+</div>
+<p>Windows:</p>
+<div class="highlight-default"><div class="highlight"><pre><span></span><span class="p">[</span><span class="n">XP</span> <span class="n">Installation</span> <span class="n">Folder</span><span class="p">]</span>\<span class="nb">bin</span>\<span class="n">server</span><span class="o">.</span><span class="n">bat</span>
+</pre></div>
+</div>
+<p>This will start Enonic XP. When successfully started, the following will appear at the end of the log:</p>
+<div class="highlight-default"><div class="highlight"><pre><span></span><span class="mi">12</span><span class="p">:</span><span class="mi">53</span><span class="p">:</span><span class="mf">14.302</span> <span class="n">INFO</span>  <span class="n">c</span><span class="o">.</span><span class="n">e</span><span class="o">.</span><span class="n">x</span><span class="o">.</span><span class="n">l</span><span class="o">.</span><span class="n">framework</span><span class="o">.</span><span class="n">FrameworkService</span> <span class="o">-</span> <span class="n">Started</span> <span class="n">Enonic</span> <span class="n">XP</span> <span class="ow">in</span> <span class="mi">7378</span> <span class="n">ms</span>
+</pre></div>
+</div>
+</div>
+<div class="section" id="log-in">
+<h2>4.4. Log In<a class="headerlink" href="#log-in" title="Permalink to this headline">¶</a></h2>
+<ul class="simple">
+<li>Point your browser to <code class="docutils literal"><span class="pre">http://localhost:8080</span></code></li>
+</ul>
+</div>
+<div class="section" id="install-superhero-blog">
+<h2>4.5. Install Superhero Blog<a class="headerlink" href="#install-superhero-blog" title="Permalink to this headline">¶</a></h2>
+<p>This is a simple blog, basically emulating Wordpress - even using one of their nice themes. Follow these steps to try it out:</p>
+<p><strong>Deploy App</strong></p>
+<ul class="simple">
+<li><a class="reference external" href="http://repo.enonic.com/public/com/enonic/theme/superhero/1.1.0/superhero-1.1.0.jar">Download the Superhero Blog Application</a></li>
+<li>Copy the application file into [XP Installation Folder]/home/deploy/</li>
+</ul>
+</div>
+<div class="section" id="next-steps">
+<h2>4.6. Next Steps<a class="headerlink" href="#next-steps" title="Permalink to this headline">¶</a></h2>
+</div>
+</div>
+
+
+           </div>
+          </div>
+          <footer>
+  
+    <div class="rst-footer-buttons" role="navigation" aria-label="footer navigation">
+      
+        <a href="chapter5.html" class="btn btn-neutral float-right" title="5. Install on my Computer" accesskey="n">Next <span class="fa fa-arrow-circle-right"></span></a>
+      
+      
+        <a href="chapter3.html" class="btn btn-neutral" title="3. Install on my Computer" accesskey="p"><span class="fa fa-arrow-circle-left"></span> Previous</a>
+      
+    </div>
+  
+
+  <hr/>
+
+  <div role="contentinfo">
+    <p>
+        &copy; Copyright 2016, ADV-SWAE.
+
+    </p>
+  </div>
+  Built with <a href="http://sphinx-doc.org/">Sphinx</a> using a <a href="https://github.com/snide/sphinx_rtd_theme">theme</a> provided by <a href="https://readthedocs.org">Read the Docs</a>. 
+
+</footer>
+
+        </div>
+      </div>
+
+    </section>
+
+  </div>
+  
+
+
+  
+
+    <script type="text/javascript">
+        var DOCUMENTATION_OPTIONS = {
+            URL_ROOT:'./',
+            VERSION:'1.5',
+            COLLAPSE_INDEX:false,
+            FILE_SUFFIX:'.html',
+            HAS_SOURCE:  true
+        };
+    </script>
+      <script type="text/javascript" src="_static/jquery.js"></script>
+      <script type="text/javascript" src="_static/underscore.js"></script>
+      <script type="text/javascript" src="_static/doctools.js"></script>
+
+  
+
+  
+  
+    <script type="text/javascript" src="_static/js/theme.js"></script>
+  
+
+  
+  
+  <script type="text/javascript">
+      jQuery(function () {
+          SphinxRtdTheme.StickyNav.enable();
+      });
+  </script>
+   
+
+</body>
+</html>
